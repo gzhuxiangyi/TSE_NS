@@ -3,7 +3,7 @@ This archive contains feature models and source codes used in the paper "Looking
 ## 1. Introduction to archive structures
 There are five folders in the released archive. Here is a brief introduction to each of them.
 
-<div align=center><img src="https://raw.githubusercontent.com/gzhuxiangyi/TSE_NS/master/img/1.png" /></div>
+<div align=center><img src="https://github.com/gzhuxiangyi/TSE_NS/blob/master/img/1.png" /></div>
 
 - The all_FM folder contains all feature models used in the paper.
 - The bin folder contains all binary files after compiling.
@@ -13,7 +13,7 @@ There are five folders in the released archive. Here is a brief introduction to 
 ## 2. How to run this program?
 **Step 1**: Load the project into Eclipse platform. Note that all JARs in the dist folder should be added into the **"Referenced Libraries"** in Eclipse (see below).
 
-<div align=center><img src="https://raw.githubusercontent.com/gzhuxiangyi/TSE_NS/master/img/2.png" /></div>
+<div align=center><img src="https://github.com/gzhuxiangyi/TSE_NS/blob/master/img/2.png" /></div>
 
 **Step 2**: Open src/spl/SPL.java, and locate at the main() function, the only entry of this program.
 
@@ -24,7 +24,7 @@ There are five folders in the released archive. Here is a brief introduction to 
 
  - It will automatically generate MATLAB scripts to perform correlation analysis. For example, we have generated the following piece of scripts for the axTLS model (See Fig. 1). These scripts are stored in *FM_axTLS*.m. After this, you can run these MATLAB scripts to get the Pearson’s correlation coefficient *r* and *p*-values. This is achieved by calling the *corrcoef* function: *[R,P] = corrcoef(data)*.
 
-<div align=center><img src="https://raw.githubusercontent.com/gzhuxiangyi/TSE_NS/master/img/3.png" /><br/>Figure 1. An example of MATLAB scripts for correlation analysis</div>
+<div align=center><img src="https://github.com/gzhuxiangyi/TSE_NS/blob/master/img/3.png" /><br/>Figure 1. An example of MATLAB scripts for correlation analysis</div>
 
 - To run Unpredictable, NS, GA, SamplingDown and Henard's GA, please use the following functions, respectively. These procedures will automatically save results into files.  
 `SPL.getInstance().samplingProductsSAT4JUnpredictable;//Unpredictable`  
@@ -47,11 +47,11 @@ Note that, to further make reproducibility easy, a three-minute video (HowToRun.
 Here are some useful ad-hoc procedures.  
 ### 3.1 Statistical Analysis
 In *jmetal.myutils.datacolletion.CollectionDataForTest.java*, we have implemented procedures to automatically generate MATLAB scripts for the Mann-Whitney U test, and R scripts for computing effect size. After configuring and running *jmetal.myutils.datacolletion.CollectionDataForTestMain.java*, we can get a folder with the following contents.  
-<div align=center><img src="https://raw.githubusercontent.com/gzhuxiangyi/TSE_NS/master/img/4.png" /></div>  
+<div align=center><img src="https://github.com/gzhuxiangyi/TSE_NS/blob/master/img/4.png" /></div>  
 
 Then, you just need to run *RunAllCoverage*.m in MATLAB to get *Coverage*.tr file, which stores the Mann-Whitney U test results. They are represented by three symbols ‘+’, ‘-‘ and ‘=’, stating that the first algorithm, i.e., the new proposal, performs significantly better than, worse than and equivalently to each of the peer algorithms, respectively. Also, you need to run *RunAllEffectSizeCoverage*.R in R platform to get the effectSize.csv file. This file stores values of the effect size, along with their magnitudes. Note that, to present Mann-Whitney U test results stored in the *Coverage*.tr file, you need to use this line `generateLatexTables(true)` in *GenerateTablesMain.java*. Note also that, in our paper, ‘+’, ‘-‘ and ‘=’ are presented as ‘•’, ‘◦’ and ‘‡’, respectively. Of course, any symbols you prefer to can be chosen.  
 
 ### 3.2 Problem-related Utils
 In the following package, we provided tools for finding core and dead features (*coreAndDeadFeatures*.java), and for generating artificial faults (*generateArtificalfaults*.java).
 
-<div align=center><img src="https://raw.githubusercontent.com/gzhuxiangyi/TSE_NS/master/img/5.png" /></div>  
+<div align=center><img src="https://github.com/gzhuxiangyi/TSE_NS/blob/master/img/5.png" /></div>  
