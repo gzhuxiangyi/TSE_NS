@@ -1,0 +1,240 @@
+c 1 Model_Transformation
+c 2 Transformation_rules
+c 3 LHS/RHS
+c 4 Variables
+c 5 Untyped
+c 6 Syntactically_typed
+c 7 Semantically_typed
+c 8 Patterns
+c 9 Form
+c 10 Strings
+c 11 Terms
+c 12 Graphs
+c 13 Syntax
+c 14 Abstract
+c 15 Concrete
+c 16 Textual
+c 17 Graphical
+c 18 Typing
+c 19 typ_untyped
+c 20 typ_syntactically_typed
+c 21 typ_semantically_typed
+c 22 Logic
+c 23 Non-executable
+c 24 Executable
+c 25 Imperative
+c 26 Declarative
+c 27 LHS/RHS_Syntactic_Separation
+c 28 Bidirectionality
+c 29 Parameterization
+c 30 Intermediate_structures
+c 31 Rule_application_scoping
+c 32 scoping_source
+c 33 target_source
+c 34 Source-Target_relationship
+c 35 New_target
+c 36 Existing_target
+c 37 In-place
+c 38 Update
+c 39 Destructive
+c 40 Extension_only
+c 41 Rule_application_strategy
+c 42 Deterministic
+c 43 Non-deterministic
+c 44 Concurrent
+c 45 One-point
+c 46 Interactive
+c 47 Rule_scheduling
+c 48 _Form
+c 49 Implicit
+c 50 Explicit
+c 51 Internal
+c 52 External
+c 53 Rule_selection
+c 54 Explicit_condition
+c 55 Non-determinism
+c 56 Conflict_resolution
+c 57 _Interactive
+c 58 Rule_Iteration
+c 59 Recursion
+c 60 Looping
+c 61 Fixpoint_Iteration
+c 62 Phasing
+c 63 Rule_organization
+c 64 Modulatiry_mechanisms
+c 65 Reuse_mechanisms
+c 66 Inheritance
+c 67 Logical_composition
+c 68 Organizational_Structure
+c 69 Source-oriented
+c 70 Target-oriented
+c 71 Independent
+c 72 Tracing
+c 73 Dedicated_support
+c 74 Storage_location
+c 75 Model
+c 76 model_source
+c 77 model_target
+c 78 Separate
+c 79 Control
+c 80 Manual
+c 81 Automatic
+c 82 All_rules
+c 83 Selected_rules
+c 84 Directionality
+c 85 Unidirectional
+c 86 Bidirectional
+c 87 Bidirectional_rules
+c 88 Complementary_pairs
+p cnf 88 151
+1 0
+-2 1 0
+-1 2 0
+-31 1 0
+-34 1 0
+-1 34 0
+-41 1 0
+-1 41 0
+-47 1 0
+-1 47 0
+-63 1 0
+-1 63 0
+-72 1 0
+-1 72 0
+-84 1 0
+-1 84 0
+-3 2 0
+-2 3 0
+-27 2 0
+-28 2 0
+-29 2 0
+-30 2 0
+-32 31 0
+-33 31 0
+-31 32 33 0
+-35 34 0
+-36 34 0
+-34 35 36 0
+-42 41 0
+-43 41 0
+-46 41 0
+-41 42 43 46 0
+-48 47 0
+-47 48 0
+-53 47 0
+-47 53 0
+-58 47 0
+-62 47 0
+-64 63 0
+-65 63 0
+-68 63 0
+-63 68 0
+-73 72 0
+-85 84 0
+-86 84 0
+-84 85 86 0
+-4 3 0
+-8 3 0
+-22 3 0
+-3 8 22 0
+-37 36 0
+-38 36 0
+-36 38 0
+-44 43 0
+-45 43 0
+-43 44 45 0
+-49 48 0
+-50 48 0
+-48 49 50 0
+-54 53 0
+-55 53 0
+-56 53 0
+-57 53 0
+-53 54 55 56 57 0
+-59 58 0
+-60 58 0
+-61 58 0
+-58 59 60 61 0
+-59 -60 0
+-59 -61 0
+-60 -61 0
+-66 65 0
+-67 65 0
+-65 66 67 0
+-69 68 0
+-70 68 0
+-71 68 0
+-68 69 70 71 0
+-69 -70 0
+-69 -71 0
+-70 -71 0
+-74 73 0
+-73 74 0
+-79 73 0
+-73 79 0
+-87 86 0
+-88 86 0
+-86 87 88 0
+-87 -88 0
+-5 4 0
+-6 4 0
+-7 4 0
+-4 5 6 7 0
+-5 -6 0
+-5 -7 0
+-6 -7 0
+-9 8 0
+-8 9 0
+-13 8 0
+-8 13 0
+-18 8 0
+-8 18 0
+-23 22 0
+-24 22 0
+-22 23 24 0
+-39 38 0
+-40 38 0
+-38 39 40 0
+-39 -40 0
+-51 50 0
+-52 50 0
+-50 51 52 0
+-51 -52 0
+-75 74 0
+-78 74 0
+-74 75 78 0
+-75 -78 0
+-80 79 0
+-81 79 0
+-79 80 81 0
+-80 -81 0
+-10 9 0
+-11 9 0
+-12 9 0
+-9 10 11 12 0
+-10 -11 0
+-10 -12 0
+-11 -12 0
+-14 13 0
+-15 13 0
+-13 14 15 0
+-19 18 0
+-20 18 0
+-21 18 0
+-18 19 20 21 0
+-19 -20 0
+-19 -21 0
+-20 -21 0
+-25 24 0
+-26 24 0
+-24 25 26 0
+-76 75 0
+-77 75 0
+-75 76 77 0
+-82 81 0
+-83 81 0
+-81 82 83 0
+-82 -83 0
+-16 15 0
+-17 15 0
+-15 16 17 0

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/heuristics
+END
+VariableOrderingHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/heuristics/VariableOrderingHeuristic.java
+END
+RandomVariableOrderingHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/heuristics/RandomVariableOrderingHeuristic.java
+END
+FTPostOrderOptTraversalHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/heuristics/FTPostOrderOptTraversalHeuristic.java
+END
+FTPreOrderOptTraversalHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/heuristics/FTPreOrderOptTraversalHeuristic.java
+END
+ECFT_PreOrderHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/heuristics/ECFT_PreOrderHeuristic.java
+END
+FTAverageOrderTraversalHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/heuristics/FTAverageOrderTraversalHeuristic.java
+END
+FTPreOrderClustersTraversalHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/heuristics/FTPreOrderClustersTraversalHeuristic.java
+END
+FTPreOrderSortedECTraversalHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/heuristics/FTPreOrderSortedECTraversalHeuristic.java
+END
+FTTraversalHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/heuristics/FTTraversalHeuristic.java
+END
+VariableOrderingHeuristicsManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/heuristics/VariableOrderingHeuristicsManager.java
+END
+FORCEVariableOrderingHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/heuristics/FORCEVariableOrderingHeuristic.java
+END
+FTPostOrderTraversalHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/heuristics/FTPostOrderTraversalHeuristic.java
+END
+FTPreOrderTraversalHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/heuristics/FTPreOrderTraversalHeuristic.java
+END
+ECFT_FORCEPreOrderHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/heuristics/ECFT_FORCEPreOrderHeuristic.java
+END
+ECFT_ClustersPreOrderHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/heuristics/ECFT_ClustersPreOrderHeuristic.java
+END
+CustomVariableOrderingHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/heuristics/CustomVariableOrderingHeuristic.java
+END

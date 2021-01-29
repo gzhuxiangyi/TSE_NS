@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/plugins/reasoners/bdd/javabdd
+END
+BDDGenerationStatistics.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/plugins/reasoners/bdd/javabdd/BDDGenerationStatistics.java
+END
+BDDTraversalNodeDFS.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/plugins/reasoners/bdd/javabdd/BDDTraversalNodeDFS.java
+END
+BDDSolutionsIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/plugins/reasoners/bdd/javabdd/BDDSolutionsIterator.java
+END
+BDDSolutionsIterator2.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/plugins/reasoners/bdd/javabdd/BDDSolutionsIterator2.java
+END
+FTReasoningWithBDD.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/plugins/reasoners/bdd/javabdd/FTReasoningWithBDD.java
+END
+ReasoningWithBDD.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/plugins/reasoners/bdd/javabdd/ReasoningWithBDD.java
+END
+BDDExceededBuildingTimeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/plugins/reasoners/bdd/javabdd/BDDExceededBuildingTimeException.java
+END
+BDDTraversal.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/plugins/reasoners/bdd/javabdd/BDDTraversal.java
+END
+PF2BDDParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/plugins/reasoners/bdd/javabdd/PF2BDDParser.java
+END
+FMReasoningWithBDD.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/plugins/reasoners/bdd/javabdd/FMReasoningWithBDD.java
+END

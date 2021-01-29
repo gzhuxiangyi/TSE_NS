@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/constraints/parsing
+END
+PFParseTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/constraints/parsing/PFParseTree.java
+END
+CNFClauseParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/constraints/parsing/CNFClauseParser.java
+END
+PFParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/constraints/parsing/PFParser.java
+END
+CNFClauseParseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/constraints/parsing/CNFClauseParseException.java
+END

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="dist/lib/com.microsoft.z3.jar"/>
+	<classpathentry kind="lib" path="dist/lib/commons-math3-3.0.jar"/>
+	<classpathentry kind="lib" path="dist/lib/javabdd.jar"/>
+	<classpathentry kind="lib" path="dist/lib/JCommander.jar"/>
+	<classpathentry kind="lib" path="dist/lib/jgrapht-jdk1.5.jar"/>
+	<classpathentry kind="lib" path="dist/lib/opencsv-1.8.jar"/>
+	<classpathentry kind="lib" path="dist/lib/org.sat4j.core_2_0_5.jar"/>
+	<classpathentry kind="lib" path="dist/lib/org.sat4j.core_trunk.jar"/>
+	<classpathentry kind="lib" path="E:/javaWorkSpace/TSE_NS/dist/lib/junit-platform-console-standalone-1.7.0-M1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

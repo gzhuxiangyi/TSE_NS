@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/fm/configuration
+END
+ConfigurationStep.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/fm/configuration/ConfigurationStep.java
+END
+ConfigurationEngineException.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/fm/configuration/ConfigurationEngineException.java
+END
+ConfigurationEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/core/fm/configuration/ConfigurationEngine.java
+END

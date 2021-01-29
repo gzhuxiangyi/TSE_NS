@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/plugins/reasoners/sat/sat4j
+END
+StaticVariableOrderSAT.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/plugins/reasoners/sat/sat4j/StaticVariableOrderSAT.java
+END
+FTReasoningWithSAT.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/plugins/reasoners/sat/sat4j/FTReasoningWithSAT.java
+END
+ReasoningWithSAT.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/plugins/reasoners/sat/sat4j/ReasoningWithSAT.java
+END
+FMReasoningWithSAT.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/SPLAR/src/splar/plugins/reasoners/sat/sat4j/FMReasoningWithSAT.java
+END
