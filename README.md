@@ -39,7 +39,7 @@ There are five folders in the released archive. Here is a brief introduction to 
 -- To compute fault detection rate, use *computeFaultRate()* in the *main()* function.  
 
 **Step 5**: Generate Latex tables, reporting means of indictors, e.g., Coverage and fault detection rate. In *SPL/GenerateTablesMain.java*, we have implemented procedures to automatically generate Latex tables. Note that there are two ways to generate tables.  
-`generateLatexTables(false) // Without showing Mann-Whitney U test results `
+`generateLatexTables(false) // Without showing Mann-Whitney U test results `  
 `generateLatexTables(true) /* Showing Mann-Whitney U test results, and this requires to get the *.tr files (see Section 3.1 for more details) */`   
 Note that, to further make reproducibility easy, a three-minute video (HowToRun.mp4) was provide to demonstrate how to run this program step by step.
 
