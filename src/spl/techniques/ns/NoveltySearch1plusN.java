@@ -52,15 +52,15 @@ import spl.techniques.ga.Individual;
 */
 public class NoveltySearch1plusN {
 	
-	List<Product> archive ; // Archive 
+    List<Product> archive ; // Archive 
     double[][] distancesMatrix; // Distance matrix   
     double [] noveltyScores; 
     
     List<Double> runCoverage ; // record coverage during run
     
-	private int archiveSize_; // Archive size
-	private int k_; 				// k_ is Nb in the paper
-	private double theta_; 			// Threshold of novelty score, default is 0
+    private int archiveSize_; // Archive size
+    private int k_; 				// k_ is Nb in the paper
+    private double theta_; 			// Threshold of novelty score, default is 0
     private long timeAllowedMS_;   // Running time
     private double p; // Used in the repair operator, a parameter
     
@@ -98,7 +98,7 @@ public class NoveltySearch1plusN {
         this.TT90 = timeAllowedMS;
         this.TT95 = timeAllowedMS;
         
-        // 初始化数组
+        // Initialize arrayes
         archive = new ArrayList<Product>(archiveSize_); 
         distancesMatrix = new double [archiveSize_+1][archiveSize_+1]; // plus one because of one population member
         random = new Random();
