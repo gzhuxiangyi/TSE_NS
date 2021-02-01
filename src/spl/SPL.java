@@ -87,7 +87,6 @@ import spl.techniques.SimilarityTechnique;
 import spl.techniques.ga.GA;
 import spl.techniques.ga.Individual;
 import spl.techniques.ns.NoveltySearch1plusN;
-import spl.utils.FMToZ3;
 import spl.utils.FileUtils;
 import splar.core.constraints.CNFClause;
 import splar.core.constraints.CNFFormula;
@@ -118,15 +117,13 @@ public class SPL {
     public int numFeatures; // how many features
     
     public static List<Integer> mandatoryFeaturesIndices;
-	public static List<Integer> deadFeaturesIndices;
-    public static List<Integer> featureIndicesAllowedFlip;
-    
-	public FMToZ3 ftz;
+    public static List<Integer> deadFeaturesIndices;
+    public static List<Integer> featureIndicesAllowedFlip;   
 	
-	public static List<Integer> featuresList = new ArrayList<Integer>();
-    public static Map<Integer, String> featuresMap = new HashMap<Integer, String>(); // ID 与name关联
-     Map<String, Integer> featuresMapRev = new HashMap<String, Integer>(); // name 与ID关联
- 	 Set<TSet> validTSets;
+    public static List<Integer> featuresList = new ArrayList<Integer>();
+    public static Map<Integer, String> featuresMap = new HashMap<Integer, String>(); // Map ID with name
+     Map<String, Integer> featuresMapRev = new HashMap<String, Integer>(); // Map name with ID
+    Set<TSet> validTSets;
  	
     protected SPL() {
 
@@ -210,7 +207,7 @@ public class SPL {
   		SPL.getInstance().fitnessRelateCoverage(fms[i], outputDir, runs, t, nbProds); // Entry to find correlations between coverage and novelty scores
   		
 //  		SPL.getInstance().samplingProductsSAT4JUnpredictable(fmFile, outputDir, runs, nbProds,t,timeAllowed); //Unpredictable   		
-  		SPL.getInstance().findProductsNSR1(fmFile, outputDir, runs, dimacs, t, nbProds, timeAllowed); //NS
+//  		SPL.getInstance().findProductsNSR1(fmFile, outputDir, runs, dimacs, t, nbProds, timeAllowed); //NS
 //  		SPL.getInstance().findProductsGAR1(fmFile, outputDir, runs, dimacs, t, nbProds, timeAllowed); // GA
 //  		SPL.getInstance().samplingDownProductsR1(fmFile, outputDir, runs, t, nbProds, timeAllowed);   // SamplingDown
 //  		SPL.getInstance().findProductsGA(fmFile, outputDir, runs, dimacs, t, nbProds, timeAllowed); //Henard's GA
@@ -4263,15 +4260,7 @@ public class SPL {
         localSearchParameters.put("max_flips",8000);
         localSearchParameters.put("wp", 0.567);
 
-        repairSolver = new ProbSATLocalSearch(localSearchParameters);// ProbSAT
-        
-       
-        //Initialize Z3 solver, not used  
-//		ftz = new FMToZ3();
-//		ftz.parseDimacs(new FileReader(fmFile));
-//		ftz.parseMandatory(new FileReader(fmFile+".mandatory"));
-//		ftz.parseDead(new FileReader(fmFile+".dead"));
-//		ftz.parseAugment();
+        repairSolver = new ProbSATLocalSearch(localSearchParameters);// ProbSAT                    
            
         // Read T-set            
         //System.out.println("--------------load T-set-------------");
