@@ -1,5 +1,6 @@
 # TSE_NS
-This archive contains feature models and source codes used in the paper "Looking For Novelty in Search-based Software Product Line Testing", by Yi Xiang, Han Huang Senior Member, IEEE, Miqing Li, Sizhe Li, and Xiaowei Yang.
+This archive contains feature models and source codes used in the following paper 
+Yi Xiang, Han Huang Senior Member, IEEE, Miqing Li, Sizhe Li, and Xiaowei Yang. "Looking For Novelty in Search-based Software Product Line Testing", IEEE Transactions on Software Engineering, 2021, doi: 10.1109/TSE.2021.3057853
 ## 1. Introduction to archive structures
 There are five folders in the released archive. Here is a brief introduction to each of them.
 
