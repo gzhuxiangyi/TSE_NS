@@ -2396,7 +2396,7 @@ public class SPL {
             	
             	int randomInt = PseudoRandom.randInt(mandatoryFeaturesIndices.size(), numFeatures - deadFeaturesIndices.size());
                
-            	Binary binary = ftz.solveWithD(randomInt);// 得到一个解
+            	Binary binary = null; //Not used ftz.solveWithD(randomInt);// 得到一个解
             
 //            	while (binary == null) {	//visited.contains(randomInt)
 //            		randomInt = PseudoRandom.randInt(mandatoryFeaturesIndices.size(), numFeatures - deadFeaturesIndices.size());
